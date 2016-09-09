@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* ¥ê¥»¥Ã¥È
+------------------------------ */
+body, th, td {
+	font-family: "SimSun", "£Í£Ó £Ð¥´¥·¥Ã¥¯", "Osaka", "¥Ò¥é¥®¥Î½Ç¥´ Pro W3";
+	font-size: 14px;
+	line-height: 20px; 
+	color: #333;
+}
+body  {
+	margin: 0px;
+	padding: 0px;
+}
+h1,h2,h3,h4,h5,h6,p,dl,dt,dd,form {
+	margin: 0px;
+	padding: 0px;
+}
+img {
+	border: 0px;
+}
+ul,ol, li{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+a:link {
+	color: #f18a03;
+	text-decoration:none;
+}
+a:visited {
+	color: #f18a03;
+	text-decoration:none;
+}
+a:hover {
+	color: #f18a03;
+	text-decoration:underline;
+}
+a:active {
+	color: #f18a03;
+	text-decoration:underline;
+}
+
+/* pngÍ¸ß^ÓÃ
+----------------------------------------------------*/
+.png {
+ behavior: expression(IEPNGFIX.fix(this));
+}
+* html .iepngfix {
+behavior: expression(IEPNGFIX.fix(this));
+}
+
+
+/* Õ{Õû¥¹¥¿¥¤¥ë !important
+------------------------------ */
+.MT05 {
+	margin-top: 5px!important;
+}
+.MT10 {
+	margin-top: 10px!important;
+}
+.MT15 {
+	margin-top: 15px!important;
+}
+.MT20 {
+	margin-top: 20px!important;
+}
+.MT30 {
+	margin-top: 30px!important;
+}
+.MB05 {
+	margin-bottom: 5px!important;
+}
+.MB10 {
+	margin-bottom: 10px!important;
+}
+.MB15 {
+	margin-bottom: 15px!important;
+}
+.MB20 {
+	margin-bottom: 20px!important;
+}
+.MB30 {
+	margin-bottom: 30px!important;
+}
+.MB40 {
+	margin-bottom: 40px!important;
+}
+.ML10 {
+	margin-left: 10px!important;
+}
+.ML20 {
+	margin-left: 20px!important;
+}
+.MR10 {
+	margin-right: 10px!important;
+}
+.MR20 {
+	margin-right: 20px!important;
+}
+
+/* ¥Æ¥­¥¹¥È
+------------------------------ */
+.bold {
+	font-weight: bold!important;
+}
+.colRed {
+	color: #ff0000;
+}
+/* ¥ê¥¹¥È
+------------------------------ */
+.listDecimal {
+	padding: 0 0 0 20px;
+}
+.listDecimal li {
+	list-style: decimal;
+	list-style-position: outside;
+}
+.listDdisc {
+
+}
+.listDisc li {
+	list-style: disc;
+	list-style-position: inside;
+	color: #FF9933;
+}
+
+
+/* ¥Õ¥í©`¥È
+------------------------------ */
+.floatArea {
+	overflow: hidden;
+	position: relative;
+}
+.floatL {
+	float: left;
+}
+.floatR {
+	float: right;
+}
