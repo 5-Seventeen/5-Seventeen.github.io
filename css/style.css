@@ -498,7 +498,14 @@ html>/**/body #main_treeArea #main_tree{
 
 }
 
+.swiper-container{
 
+	height: 372px;
+	width: 1054px;
+	animation-timing-function: ease;
+
+
+}
 
 
 
